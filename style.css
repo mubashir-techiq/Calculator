@@ -1,0 +1,101 @@
+body{
+    font-family: 'Lunasima', sans-serif;
+    font-size: 3rem;
+    color: #F4F2DE;
+    background-image: linear-gradient(to right,#4E4FEB,#6528F7,#A076F9);
+    padding: 0;
+    margin: 0;
+
+}
+/* 
+#3F2E3E
+
+*/
+
+.calc{
+    background-color: #282625;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 30%;
+    margin: 1% auto;
+    filter: drop-shadow(.5rem .5rem 1.5rem #303030);
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #4E4FEB;
+    background-image: linear-gradient(230deg,#4E4FEB,#A076F9 );
+    color: #282625;
+    height: 30%;
+    font-size: 2.5rem;
+    text-align: end;
+    padding: 2%;
+}
+
+.screen p{
+    margin: 0.5%;
+    font-weight: 700;
+    padding-right: 3%;
+}
+
+.screen p:first-child{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.pad{
+    display: inline-grid;
+    column-count: 4;
+    gap: .5rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    padding: 2%;
+}
+
+.btn{
+    background-color: #151414;
+    border-radius: 5px;
+    color: #F4F2DE;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sp{
+    background-image: linear-gradient(45deg,#4E4FEB,#6528F7);
+    color: #151414;
+}
+
+.sp:hover{
+    background-image: linear-gradient(45deg,#4e4eeb70,#6628f770);
+}
+
+.cl{
+    background-color: #5f5d5d;    
+}
+
+.cl:hover{
+    background-color: #262525;   
+}
+.csp{
+    grid-column: span 2;
+}
+
+.rsp{
+    grid-row: span 2;
+}
+
+.rsp p{
+    align-self: center;
+}
+
+.btn:hover{
+    background-color: #2e2d2d;
+}
